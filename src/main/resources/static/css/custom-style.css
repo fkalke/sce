@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(240, 239, 239);
+}
+.inicio{
+    max-width: 900px;    
+}
+
+.header{
+    background: rgb(44, 44, 44);
+}
+
+.botoes{
+    background: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+}
+
+.botoes-editar{
+    background: rgb(36, 93, 248);
+    color: rgb(255, 255, 255);
+}
+
+.botoes-excluir{
+    background: rgb(190, 33, 33);
+    color: rgb(255, 255, 255);
+}
+
+.botoes:hover,
+.botoes-editar:hover,
+.botoes-excluir:hover{
+    color: blanchedalmond;
+}
+
